@@ -75,10 +75,10 @@ html{
 }
 body{
     font-family: "Rubik", sans-serif;
-    /* background-color: #222831; */
+    background-color: #EEEEEE;
     line-height: 1;
     font-weight: 400;
-    color: #EEEEEE;
+    color: #222831;
     overflow-x: hidden;
 }
 /**************************/
@@ -140,9 +140,7 @@ body{
     font-weight: 400;
     letter-spacing: 5px;
     
-    animation-name: disappearThenAppear;
-    animation-duration: 5s;
-    animation-delay: 10s;
+    
     
 }
 .heading-primary-sub{
@@ -154,31 +152,7 @@ body{
     animation-duration: 1.5s;
 }
 
-@keyframes appearThenDisappear {
-    0%{
-        opacity: 0;
-        
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        
-    }
-}
 
-@keyframes disappearThenAppear {
-    0%{
-        
-        opacity: 0;
-        
-    }
-    100%{
-        opacity: 1;
-        
-    }
-}
 
 @keyframes moveInTop {
     0%{
